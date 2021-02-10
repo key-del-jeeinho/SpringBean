@@ -1,0 +1,4 @@
+<beans>
+    <!-- A simple bean definition -->
+    <bean id="simpleBean" class="com.xylope.springbean.testbean.TestSimpleXmlBean"/>
+</beans>

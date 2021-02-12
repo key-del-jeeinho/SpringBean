@@ -1,4 +1,4 @@
-package com.xylope.springbean.bean;
+package com.xylope.springbean.legacy.bean;
 
 import lombok.Getter;
 import lombok.NonNull;

@@ -1,12 +1,10 @@
-package com.xylope.springbean.applicationcontext;
+package com.xylope.springbean.legacy.applicationcontext;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.util.concurrent.atomic.AtomicReference;
 
-import static org.junit.Assert.assertNotNull;
-
-public class GenericXmlApplicationContext extends GenericApplicationContext {
+public class GenericXmlApplicationContext extends com.xylope.springbean.legacy.applicationcontext.GenericApplicationContext {
     String path;
 
     public GenericXmlApplicationContext(String path) {
@@ -19,7 +17,6 @@ public class GenericXmlApplicationContext extends GenericApplicationContext {
         beans.forEach(
                 bean -> {
                     if(bean.getId().equals(id)) {
-                        assertNotNull(bean.getBeanClass());
                         if (bean.getBeanClass().equals(beanClass.getName())) {
                             if (bean.getBeanObject() != null)
                                 result.set((T) bean.getBeanObject());

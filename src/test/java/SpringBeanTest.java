@@ -1,6 +1,5 @@
-import com.xylope.springbean.applicationcontext.GenericXmlApplicationContext;
-import com.xylope.springbean.bean.BeanScope;
-import com.xylope.springbean.bean.SpringBean;
+import com.xylope.springbean.legacy.applicationcontext.GenericXmlApplicationContext;
+import com.xylope.springbean.legacy.bean.SpringBean;
 import com.xylope.springbean.testbean.TestSimpleXmlBean;
 import org.junit.Test;
 

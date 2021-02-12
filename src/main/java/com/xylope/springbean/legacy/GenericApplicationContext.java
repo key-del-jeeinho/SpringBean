@@ -1,6 +1,6 @@
-package com.xylope.springbean.applicationcontext;
+package com.xylope.springbean.legacy.applicationcontext;
 
-import com.xylope.springbean.bean.SpringBean;
+import com.xylope.springbean.legacy.bean.SpringBean;
 
 import java.util.ArrayList;
 import java.util.List;
